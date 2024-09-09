@@ -1,0 +1,11 @@
+@Shielded.WebApi_HostAddress = http://localhost:5189
+
+GET {{Shielded.WebApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Shielded.WebApi_HostAddress}}/todos/1
+Accept: application/json
+
+###
