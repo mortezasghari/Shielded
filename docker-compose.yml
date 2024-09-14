@@ -1,0 +1,6 @@
+services:
+  shielded.webapi:
+    image: ${DOCKER_REGISTRY-}shieldedwebapi
+    build:
+      context: .
+      dockerfile: Shielded.WebApi/Dockerfile

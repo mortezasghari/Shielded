@@ -1,11 +1,6 @@
-@Shielded.WebApi_HostAddress = http://localhost:5189
+@Shielded.WebApi_HostAddress = http://localhost:5039
 
-GET {{Shielded.WebApi_HostAddress}}/todos/
-Accept: application/json
-
-###
-
-GET {{Shielded.WebApi_HostAddress}}/todos/1
+GET {{Shielded.WebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
